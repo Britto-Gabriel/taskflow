@@ -1,12 +1,35 @@
-# React + Vite
+Progresso - Dia 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Neste primeiro dia de desenvolvimento do TaskFlow, me concentrei em estruturar a base funcional da aplicação. Como desenvolvedor júnior, meu foco foi criar algo simples, porém organizado, para evoluir com segurança nos próximos dias.
 
-Currently, two official plugins are available:
+O que foi feito:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Estrutura inicial criada com Vite + React + Tailwind.
 
-## Expanding the ESLint configuration
+Definição do estado inicial de tarefas com useState.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Implementação do CRUD básico: criar, editar, excluir e marcar como concluída.
+
+Filtros por prioridade, categoria e busca textual.
+
+Interface simples e responsiva com modal para nova tarefa.
+
+Criação de uma lógica de cores por prioridade e detecção de tarefas atrasadas.
+
+Desafios:
+
+Entender como estruturar os dados das tarefas de forma reutilizável.
+
+Lidar com o controle de estados ao editar e limpar o formulário.
+
+Organizar a lógica de filtragem sem comprometer a performance ou clareza do código.
+
+Próximos passos:
+
+Implementar arrastar e soltar (drag & drop).
+
+Adicionar estatísticas visuais sobre tarefas.
+
+Trabalhar com temas (dark/light) e início de sistema de notificações.
+
+Integração com localStorage (salvar tarefas localmente).
